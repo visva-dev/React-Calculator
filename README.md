@@ -1,10 +1,13 @@
-# Getting Started with Create React App
+# React Calculator project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Microverse React curriculum project - Calculator app.
+
+## Built With
+- CSS
+- JavaScript
+- React
 
 ## Available Scripts
-
-In the project directory, you can run:
 
 ### `npm start`
 
@@ -29,42 +32,41 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### `Live link`
+[Link to Heroku](https://visva-react-calculator.herokuapp.com/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### To get this project on your local machine, follow these steps:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Run this command `git clone https://github.com/visva-dev/React-Calculator.git` in the desired folder to clone the repository on to your local machine.
+After cloning the project, you should move into the directory where the project is stored, for example `cd react-calculator`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+3. Then run the following command install the necessary dependencies
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+    npm install
+```
+- Run `npm run start` to start the local server.
 
-## Learn More
+## Authors
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+👤 **Visvaldas Rapalis**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Github: [@visva-dev](https://github.com/visva-dev)
+- Twitter: [@Visva_Dev](https://twitter.com/Visva_Dev)
+- Linkedin: [@Visvaldas-Rapalis](https://www.linkedin.com/in/visvaldas-rapalis/)
+- Website: [good-developer.com](https://www.visva.tech/)
 
-### Code Splitting
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Give an ⭐️ if you like this project!
 
-### Analyzing the Bundle Size
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- This project was originally taken from [The Odin project](https://www.theodinproject.com/courses/javascript/lessons/weather-app).
+- The project was inspired by the [Microverse](https://www.microverse.org/) program.
 
-### Making a Progressive Web App
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This project is [MIT](lic.url) licensed.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio)
