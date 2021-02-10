@@ -26,6 +26,29 @@ class App extends React.Component {
       operation: result.operation,
     });
   }
+
+  render() {
+    const { total, next, operation } = this.state;
+    let result;
+    if (operation === null) {
+      result = total;
+    } else if (operation === '+/-') {
+      if (next === null || next === '0') {
+        result = total;
+      } else {
+        result = next;
+      }
+    } else {
+      result = next === null ? operation : next;
+    }
+
+    return (
+      <div className='app'>
+        <Display result={result} />
+        <ButtonPanel clickHandler={this.handleClick} />
+      </div>
+    );
+  }
 }
 
 export default App;
