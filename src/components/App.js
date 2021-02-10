@@ -13,6 +13,19 @@ class App extends React.Component {
     };
     this.handleClick = this.handleClick.bind(this);
   }
+
+  handleClick(buttonName) {
+    const { total, next, operation } = this.state;
+    const data = { total, next, operation };
+
+    const result = Calculate(data, buttonName);
+
+    this.setState({
+      total: result.total,
+      next: result.next,
+      operation: result.operation,
+    });
+  }
 }
 
 export default App;
