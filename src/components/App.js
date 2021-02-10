@@ -1,3 +1,4 @@
+import React from 'react';
 import '../app.css';
 import Display from './Display';
 import ButtonPanel from './ButtonPanel';
@@ -43,7 +44,7 @@ class App extends React.Component {
     }
 
     return (
-      <div className='app'>
+      <div className="app">
         <Display result={result} />
         <ButtonPanel clickHandler={this.handleClick} />
       </div>

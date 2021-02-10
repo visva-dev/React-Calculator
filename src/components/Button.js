@@ -1,20 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Button = (props) => {
+const Button = props => {
   const { name, handleClick } = props;
   return (
-    <>
-      <button
-        type='button'
-        onClick={() => {
-          handleClick(name);
-        }}
-        value={name}
-      >
-        {name}
-      </button>
-    </>
+    <button
+      type="button"
+      onClick={() => {
+        handleClick(name);
+      }}
+      value={name}
+    >
+      {name}
+    </button>
   );
 };
 
