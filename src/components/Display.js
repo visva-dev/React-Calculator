@@ -4,7 +4,7 @@ const Display = props => {
   const { result } = props;
   return (
     <>
-      {result}
+      <div className="Display">{result}</div>
     </>
   );
 };
