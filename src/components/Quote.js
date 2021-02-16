@@ -4,7 +4,7 @@ import NavBar from './Navbar';
 const Quote = () => (
   <>
     <NavBar />
-    <h1>Every programmer is an author.</h1>
+    <h1 className="quote">Every programmer is an author.</h1>
   </>
 );
 

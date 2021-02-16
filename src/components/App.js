@@ -41,6 +41,7 @@ const App = () => {
   return (
     <div className="app">
       <NavBar />
+      <h1>Let’s do some math!</h1>
       <Display result={result} />
       <ButtonPanel clickHandler={handleClick} />
     </div>
