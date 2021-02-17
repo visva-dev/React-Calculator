@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <div
+    className="navbar"
+  >
+    <h1>
+      Math Magicians
+    </h1>
+    <div
+      className="nav"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        Home 
+      </a>
+      <a
+        href="/App"
+        onClick={[Function]}
+      >
+        Calculator 
+      </a>
+      <a
+        href="/Quote"
+        onClick={[Function]}
+      >
+        Quote 
+      </a>
+    </div>
+  </div>,
+  <h1>
+    Every programmer is an author.
+  </h1>,
+]
+`;
